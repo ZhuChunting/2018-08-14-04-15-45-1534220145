@@ -56,6 +56,27 @@ System.out.println("元素的个数是"+arr.length);
 }
 }
 
+作业3
+package Computestring;
+
+import java.util.Scanner;
+
+public class Computestring {
+		public static void main(String[] args) {
+		Scanner input=new Scanner (System.in);
+	    String line=input.nextLine();
+		int sum = 0;
+		for (int c=0; c < line.length(); c++) {
+		if (Character.isDigit(line.charAt(c))) {
+		sum = sum + Integer.parseInt(line.charAt(c) + "");
+		}
+		}
+		System.out.println(sum);
+		}
+		
+}
+
+
 
 
 
